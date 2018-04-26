@@ -1,0 +1,8 @@
+main: me.invertmc.SupportCore
+version: 0.0.1
+name: SupportCore
+
+commands:
+ support:
+  usage: /<command>
+  description: Base support core command

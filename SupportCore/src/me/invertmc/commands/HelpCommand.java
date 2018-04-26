@@ -5,27 +5,23 @@ import org.bukkit.entity.Player;
 public class HelpCommand extends SubCommand {
 
 	@Override
-	public void onCommand(Player p, String[] args) {
-		// TODO Auto-generated method stub
+    public void onCommand(Player p, String[] args) {
 
-	}
+    }
 
-	@Override
-	public String name() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+    @Override
+    public String name() {
+        return "help";
+    }
 
-	@Override
-	public String info() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+    @Override
+    public String info() {
+        return null;
+    }
 
-	@Override
-	public String[] aliases() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+    @Override
+    public String[] aliases() {
+        return new String[0];
+    }
 
 }
